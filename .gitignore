@@ -1,3 +1,17 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
 # Logs
 logs
 *.log
@@ -19,15 +33,14 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directory
-# Commenting this out is preferred by some people, see
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+# npm
 node_modules
+package-lock.json
+*.log
+*.gz
 
 # Users Environment Variables
 .lock-wscript
 
-# react .gitignore
-.pnp
-.pnp.js
-.js
+# Benchmarking
+benchmarks/graphs

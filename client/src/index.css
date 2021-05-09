@@ -1,0 +1,90 @@
+#root {
+  height: 100vh;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.btn-light {
+  color: #333 !important;
+  background-color: #e2e6ea !important;
+  border-color: #dae0e5;
+}
+
+.btn-light:hover {
+  color: #111 !important;
+  background-color: #ffffff !important;
+}
+
+#register .register-form,
+#login .login-form {
+  min-width: 350px;
+}
+
+#navBar {
+  z-index: 10;
+}
+
+#navBar .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.add-post,
+.post-list-group-item {
+  margin-bottom: 1em !important;
+  border: none !important;
+  border-radius: 0.25rem !important;
+  background-color: #fff !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: box-shadow 500ms 0ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.add-post:hover,
+.post-list-group-item:hover {
+  background-color: #fefefe;
+  box-shadow: 0 1px 1px 0 rgb(66 66 66 / 8%),
+    0 1px 3px 1px rgb(66 66 66 / 16%);
+}
+
+.add-post {
+  padding: .75rem 1.25rem;
+}
+
+.user-icon {
+  font-size: 2.5em;
+}
+
+.icon-nav {
+  font-size: 1.5em;
+}
+
+.icon-btn {
+  font-size: 1.2em;
+}
+
+.user-icon-profile {
+  font-size: 2.8em;
+}
+
+.user-icon-profile-info {
+  font-size: 1.5em;
+}
+
+.login-alert {
+  /* position: fixed; */
+  /* top: 20vh; */
+  max-width: 350px;
+}
+
+#users,
+#showPost,
+#profile,
+#dashboard {
+  overflow-y: scroll;
+  overflow-x: unset;
+}
