@@ -2,6 +2,15 @@
 
 A simple blog posting project made with Express and React
 
+## QuickStart
+
+1. Create A MySQL Database
+2. Go to .env file of /src folder and change Database Credentials
+3. Open terminal in project directory
+4. run `npm run dev`
+
+> Now Server (Express) App will run on [http://localhost:5000](http://localhost:5000) and Client (React) App will run on [http://localhost:1754](http://localhost:1754)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -31,7 +40,7 @@ Open [http://localhost:1754](http://localhost:1754) to view it in the browser.
 
 > I change the default port from 3000 to 1754. Because I face some errors.
 
-> If you want to run it on port 3000 then got to .env file of /src folder and change CLIENT_PORT to 3000 then got to .env file of /client folder and change PORT to 3000
+> If you want to run it on port 3000 then go to .env file of /src folder and change CLIENT_PORT to 3000 then go to .env file of /client folder and change PORT to 3000
 
 > If you change the server port from 5000 please go to package.json file of /client folder and change the value of "proxy"
 
